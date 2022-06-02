@@ -1,0 +1,110 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: calc(12px + 1vw);
+    line-height: calc(30px +1vw);
+}
+
+.main-flex-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+   
+}
+.header-section{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    
+}
+.header-section >h1{
+    width: 100%;
+}
+.context{
+    width: 100%;
+    line-break: break-all;
+}
+
+h5{
+    display:inline;
+    width: max-content;
+    height: max-content;
+    margin: 41% -37%;
+    transform: rotate(90deg);
+    z-index: 100;
+    text-transform:uppercase;
+}
+
+.grid_contain{
+    padding: 20px;
+    display: grid;
+    width: 92%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,clamp(50px,20%,1024px));
+    align-items: center;
+    row-gap: 60px;
+    justify-content: space-around;
+    grid-auto-flow: row;
+
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+}
+.grid_item:nth-child(2){
+    position:relative;
+    top:40px;
+}
+.grid_item:nth-child(5){
+    position:relative;
+    top:40px;
+}
+.image{
+    position: relative;
+    width: 100%;
+    object-fit: contain;
+}
+@media screen and (max-width: 650px) {
+    .header-section{
+        width: 90%;
+        margin-top: 2%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+   
+    .grid_contain{
+       
+        width: 100%;
+        /* height: 80vh; */
+        grid-template-columns: repeat(2,minmax(50px,100px));
+        row-gap: 10px;
+       
+    }
+    .grid_item:nth-child(1){
+        align-self: start;
+    }
+    
+    
+    .grid_item:nth-child(4){
+        position:relative;
+        top:30%;
+    }.grid_item:nth-child(5){
+        position:relative;
+        top: 0;
+        bottom:25%;
+    }
+    .grid_item:nth-child(6){
+        position:relative;
+        top: 30%;
+       
+    }
+}
