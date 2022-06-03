@@ -45,7 +45,7 @@ h5{
     row-gap: 60px;
     justify-content: space-around;
     grid-auto-flow: row;
-
+    margin-bottom: 9%;
 }
 .flex-box{
     display: flex;
