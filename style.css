@@ -89,7 +89,7 @@ h5{
     
     .grid_item:nth-child(4){
         position:relative;
-        top:30%;
+        top:40%;
     }.grid_item:nth-child(5){
         position:relative;
         top: 0;
@@ -97,6 +97,6 @@ h5{
     }
     .grid_item:nth-child(6){
         position:relative;
-        top: 30%;       
+        top: 40%;       
     }
 }

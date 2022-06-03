@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://sensational-sunshine-e2ac1e.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/GenericJM/My-team-page">
       Solution
     </a>
     <span> | </span>
@@ -44,14 +44,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - What was your experience?
 - What have you learned/improved?
 - Your wisdom? :)
-
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
